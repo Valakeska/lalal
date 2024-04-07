@@ -26,8 +26,8 @@ jobs:
 
     - name: Install Roslynator
       run: dotnet add WebApplication3/WebApplication3.csproj package Roslynator.Analyzers --version 3.0.0
-      
-      - name: Install Roslynator
+
+    - name: Install Roslynator global
       run: dotnet tool install --global Roslynator.CommandLine
 
 
