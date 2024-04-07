@@ -19,11 +19,13 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '8.0.x' # Укажите актуальную версию .NET SDK
+        dotnet-version: '6.0.x' # Укажите актуальную версию .NET SDK
 
     - name: Restore dependencies
       run: dotnet restore
-      
-    
-    - name: Run StyleCop analysis
-      run: dotnet stylecop analyze --no-build --verbosity quiet
+
+    - name: Install Roslynator
+      run: dotnet add package Roslynator.Analyzers --version 3.0.0
+
+    - name: Run Roslynator analysis
+      run: dotnet roslynator analyze solution.sln --verbosity quiet
