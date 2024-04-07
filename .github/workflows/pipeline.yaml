@@ -28,8 +28,7 @@ jobs:
       run: dotnet add WebApplication3/WebApplication3.csproj package Roslynator.Analyzers --version 3.0.0
 
     - name: Install Roslynator global
-      run: dotnet tool install --global Roslynator.CommandLine
-
+      run: dotnet restore
 
     - name: Run Roslynator analysis
       run: dotnet tool run roslynator analyze solution.sln --verbosity quiet
