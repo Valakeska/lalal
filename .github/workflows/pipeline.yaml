@@ -24,8 +24,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
       
-    - name: Install StyleCop.Analyzers
-      run: dotnet tool install --global StyleCop.Analyzers
-      
+    
     - name: Run StyleCop analysis
       run: dotnet stylecop analyze --no-build --verbosity quiet
