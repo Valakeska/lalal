@@ -25,7 +25,7 @@ jobs:
       run: dotnet restore
 
     - name: Install Roslynator
-      run: dotnet add package Roslynator.Analyzers --version 3.0.0
+      run: dotnet add WebApplication3/WebApplication3.csproj package Roslynator.Analyzers --version 3.0.0
 
     - name: Run Roslynator analysis
       run: dotnet roslynator analyze solution.sln --verbosity quiet
