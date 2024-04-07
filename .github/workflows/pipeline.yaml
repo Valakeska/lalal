@@ -31,4 +31,4 @@ jobs:
       run: dotnet restore
 
     - name: Run Roslynator analysis
-      run: dotnet tool run roslynator analyze solution.sln --verbosity quiet
+      run: dotnet tool run roslynator analyze WebApplication3.sln --verbosity quiet
