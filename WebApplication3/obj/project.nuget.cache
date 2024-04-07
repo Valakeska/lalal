@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UXQN/Uio1CeDvxscj9qAqGCajjGvIldUJ2WCXf/6KIalnIN/Df6Bril9HuUXJOjfcYzH2oN9xvJX+qGFbQnfDQ==",
+  "dgSpecHash": "gXsgL++7qkJXZnL9QVmTWUc7Fm2jtPlh17TRDUemYe42+f/Cvx/k0lxSY7Xmc/oYF5+q11QTfXQS+M1Za2Ixkg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Deep\\Documents\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\Deep\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Deep\\.nuget\\packages\\prometheus-net\\8.2.1\\prometheus-net.8.2.1.nupkg.sha512",
     "C:\\Users\\Deep\\.nuget\\packages\\prometheus-net.aspnetcore\\8.2.1\\prometheus-net.aspnetcore.8.2.1.nupkg.sha512",
+    "C:\\Users\\Deep\\.nuget\\packages\\roslynator.commandline\\0.8.4\\roslynator.commandline.0.8.4.nupkg.sha512",
     "C:\\Users\\Deep\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
     "C:\\Users\\Deep\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Deep\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
